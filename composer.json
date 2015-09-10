@@ -1,0 +1,14 @@
+{
+    "name": "erpmesh/odoo-connect",
+    "description": "Standalone service that integrate Odoo with ERPMesh",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pitipong Guntawong",
+            "email": "pppstudio.gm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
