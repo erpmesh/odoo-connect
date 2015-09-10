@@ -10,5 +10,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "repositories": [
+      {
+        "type": "git",
+        "url": "git@github.com:erpmesh/phplib-connect.git"
+      }
+    ],
+    "require": {
+        "erpmesh/phplib-connect": "dev-master"
+    }
 }
