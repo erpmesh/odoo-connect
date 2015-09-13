@@ -1,17 +1,17 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6c79a7038e971acdeb0adc3bc07d037a",
+    "hash": "deaff0e4eeecc1a6bd99079795b28af6",
     "packages": [
         {
             "name": "erpmesh/phplib-connect",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/erpmesh/phplib-connect.git",
+                "url": "git@github.com:erpmesh/phplib-connect.git",
                 "reference": "a6af9c9cc634a2b2f41e84635412ff0249e21408"
             },
             "dist": {
@@ -33,13 +33,40 @@
             ],
             "description": "PHP Library that integrated with ERPMesh for the synchronization between other ERP software to php base ERP software",
             "time": "2015-09-10 14:52:33"
+        },
+        {
+            "name": "odom/ripcord",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/odom/ripcord.git",
+                "reference": "3891dc752f15043f38bc3a30a35a4a872b964048"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/odom/ripcord/zipball/3891dc752f15043f38bc3a30a35a4a872b964048",
+                "reference": "3891dc752f15043f38bc3a30a35a4a872b964048",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "files": [
+                        "ripcord.php"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Ripcord Odoo for Laravel 5",
+            "time": "2015-05-27 08:50:15"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "erpmesh/phplib-connect": 20
+        "erpmesh/phplib-connect": 20,
+        "odom/ripcord": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
