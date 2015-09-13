@@ -12,16 +12,14 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:erpmesh/phplib-connect.git",
-                "reference": "a6af9c9cc634a2b2f41e84635412ff0249e21408"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/erpmesh/phplib-connect/zipball/a6af9c9cc634a2b2f41e84635412ff0249e21408",
-                "reference": "a6af9c9cc634a2b2f41e84635412ff0249e21408",
-                "shasum": ""
+                "reference": "6b2c771f2d936c8e8c65a80f26905b942fc6fd23"
             },
             "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload": {
+                "psr-4": {
+                    "erpMesh\\phplib\\": "class/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -32,7 +30,7 @@
                 }
             ],
             "description": "PHP Library that integrated with ERPMesh for the synchronization between other ERP software to php base ERP software",
-            "time": "2015-09-10 14:52:33"
+            "time": "2015-09-13 19:58:02"
         },
         {
             "name": "odom/ripcord",
